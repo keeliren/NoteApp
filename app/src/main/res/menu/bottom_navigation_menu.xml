@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_all_notes"
+        android:enabled="true"
+        android:title="@string/all_notes"/>
+    <item
+        android:id="@+id/page_fav"
+        android:enabled="true"
+        android:title="@string/favorites"/>
+
+
+</menu>

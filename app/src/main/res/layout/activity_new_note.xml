@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".NewNoteActivity">
+
+    <EditText
+        android:gravity="top"
+        android:id="@+id/titleTV"
+        android:textSize="30dp"
+        android:hint="@string/enter_title_here"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+    <EditText
+        android:gravity="top"
+        android:singleLine="false"
+        android:id="@+id/descriptionTV"
+        android:textSize="30dp"
+        android:hint="Enter description here"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/addNote"
+            android:layout_margin="30dp"
+            android:layout_centerInParent="true"
+            android:text="Create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+    </RelativeLayout>
+
+</LinearLayout>
